@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: nritest-0504a
+  host: nritest-0504a
+  disk_quota: 1024M
+  buildpack: python_buildpack
